@@ -1,0 +1,21 @@
+.container {
+  margin-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+}
+
+.content__img {
+  float: left;
+}
+
+.content {
+  clear: left;
+  /* margin-bottom: 100px; */
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
