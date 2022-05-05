@@ -1,0 +1,19 @@
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  width: 30%;
+  /* background-color: red; */
+  /* border: 1px solid black; */
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.blog__content__text {
+  font-weight: bold;
+}
