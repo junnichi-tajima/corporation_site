@@ -1,6 +1,9 @@
 
 
-
+h3 {
+  text-align: left;
+  /* color: blue; */
+}
 
 .omoi {
   width: 100%;
@@ -11,8 +14,13 @@
   box-sizing: border-box;
 }
 
+.blog__ttl{
+  font-size: 24px
+  /* color:red */
+}
+
 .service__ttl {
-  margin-top: 10%;
+  /* margin-top: 10%; */
   font-size: 24px;
   text-align: center;
   position: relative;
@@ -23,14 +31,14 @@
   justify-content: center;
   /* background-color: green; */
   position: relative;
-  margin-bottom: 100px;
+  margin: 100px;
   /* padding-bottom: 100px; */
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .grid_container {
   display: grid;
-  grid-template-columns: 30% 30%;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   justify-content: center;
   /* position: relative; */
@@ -87,27 +95,51 @@
   top:100%; */
   /* left: 50%; */
   background-color: red;
-  /* text-align: center;
-  display: block; */
+  text-align: center;
+  display: block;
   margin: 0 auto;
   padding:15px;
   text-decoration: none;
   color: #000;
   border: 1px solid #000;
   /* transform:  translateX(-50%); */
-
+color: white;
   box-sizing: border-box;
+  margin-top:  20px;
+  width:  20%;
 }
 
 .news {
   width: 100%;
   background-color: black;
   padding: 80px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.news-button {
+  position: absolute;
+  top: 70px;
+  right: 5px;
+  background-color: red;
+  text-align: center;
+  padding:15px;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #000;
+  transform:  translateX(-100%);
+color: white;
+  box-sizing: border-box;
+  width:  20%;
 }
 
 .news__ttl {
 color: white;
-margin-top:  100px;
+/* margin-top:  100px; */
+
+font-size: 24px;
+/* text-align: center; */
+margin-bottom: 20px;
 }
 
 .new__content {
@@ -142,7 +174,7 @@ margin-top:  100px;
   margin: 0 auto;
   padding:15px;
   text-decoration: none;
-  color: #000;
+  color: white;
   border: 1px solid #000;
   text-align: center;
 
@@ -168,7 +200,7 @@ margin-top:  100px;
   margin: 0 auto;
   padding:15px;
   text-decoration: none;
-  color: #000;
+  color: white;
   border: 1px solid #000;
 
   font-size: 24px;
