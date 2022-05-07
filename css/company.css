@@ -1,0 +1,44 @@
+
+.container {
+    width: 100%;
+    /* padding: 200px; */
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    /* background-color: aqua; */
+}
+/* 
+.company-info {
+    width: 100%;
+    background-color: red;
+
+    border-spacing: 10px 20px;/* 横 縦 */
+    border-collapse:separate;
+}
+
+td {
+    border: 1px solid black;
+    /* margin-top: 20px; */
+    border-width: 1px 0px;
+} */
+
+.content {
+    width: 100%;
+    display: flex;
+    /* margin-top: 100px; */
+}
+
+.content__key {
+    width: 20%;
+    text-align:  center;
+    float:left;
+    font-weight: bold;
+}
+
+hr:not(:last-child) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr:last-child{
+    margin-top: 20px;
+}

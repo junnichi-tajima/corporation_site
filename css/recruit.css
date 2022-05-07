@@ -1,0 +1,25 @@
+
+.content {
+    width: 100%;
+    padding: 20px 200px 80px 200px;
+    box-sizing: border-box;
+}
+
+.content__table{
+    width: 100%;
+    border-collapse: collapse;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+td {
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+
+.content__table--key {
+    width:30%;
+    background-color: #EEEEEE;
+    text-align: center;
+    font-weight: bold;
+}
