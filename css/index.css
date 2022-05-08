@@ -51,6 +51,12 @@ h3 {
   /* margin-bottom: 100px; */
 }
 
+@media screen and (max-width: 768px) {
+  .grid_container {
+    flex-direction: column;
+  }
+}
+
 .grid1 {
   width: 100%;
   grid-row: 1;
@@ -169,6 +175,13 @@ margin-bottom: 20px;
 .blog__container {
   width: 100%;
   display:  flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .blog__container {
+      flex-direction: column;
+    }
 }
 
 .blog_content {
