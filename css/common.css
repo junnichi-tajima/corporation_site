@@ -1,5 +1,14 @@
 
 
+.hidden {
+  clear: both;
+}
+
+.hidden.open {
+  display: none;
+  /* background-color: red; */
+}
+
 
 .site-header {
     position: fixed;
@@ -52,7 +61,7 @@ a {
     font-size: 24px;
     transition: 1s;
     text-align: center;
-    z-index: 30;
+    z-index: 40;
   }
   
   .side-bar.open {
@@ -60,6 +69,7 @@ a {
     /* display: block; */
     /* width: 100%; */
     /* display: contents; */
+    /* z-index: 60; */
   }
   
   .side-bar-item {
@@ -138,6 +148,12 @@ a {
       /* bottom: 0px; */
       transform: rotate(-45deg);
     }
+
+    .footer-menu {
+      display: flex;
+      /* flex-wrap: wrap; */
+      flex-direction: column;
+    }
   }
   
 .footer {
@@ -162,6 +178,7 @@ a {
     float:left;
     margin-right: 20px;
     color: white;
+    width:  100px;
   }
 
   .title {
