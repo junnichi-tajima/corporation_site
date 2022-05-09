@@ -2,23 +2,23 @@
 .container {
     width: 100%;
     /* padding: 200px; */
-    padding-top: 200px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     /* background-color: aqua; */
+    box-sizing: border-box;
 }
 /* 
 .company-info {
     width: 100%;
     background-color: red;
 
-    border-spacing: 10px 20px;/* 横 縦 */
+    border-spacing: 10px 20px;
     border-collapse:separate;
 }
-
-td {
+*/
+/* td {
     border: 1px solid black;
-    /* margin-top: 20px; */
     border-width: 1px 0px;
 } */
 

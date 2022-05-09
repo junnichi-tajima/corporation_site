@@ -4,10 +4,11 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  /* background-color: red; */
 }
 
 .content {
-  width: 50%;
+  width: 30%;
   /* background-color: red; */
   /* border: 1px solid black; */
   margin-left: 20px;
@@ -22,4 +23,17 @@
 
 .content__img {
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+    .content {
+      width: 90%;
+      position: block ;
+    }
 }
